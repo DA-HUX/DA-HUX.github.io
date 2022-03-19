@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DAHUX</title>
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="toolbar">
+    <div class="box-t1">
+      <h1 class="text-title">DAHUX</h1>
+    </div>
+    <div class="box-t2">
+      <span class="fecha">00/00/0000</span>
+      <span class="hora">00:00:00</span>
+    </div>
+  </header>
+  
+ <article class="content">
+   <div class="section-name">
+     <h1 class="text-section">EMULADORES</h1>
+   </div>
+   
+   <p class="text-emulator">PPSSPP (Emulador de la consola PSP)</p>
+   <div class="container-apk c-apk1" onclick="descargar(1)">
+     <img src="img/Icon_ppsspp.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">PPSSPP - PSP Emulator</span>
+       <span class="apk-version">1.12.3</span>
+       <span class="apk-programer">Henrik Rydgård</span>
+     </div>
+   </div>
+   
+   <div class="container-apk c-apk2" onclick="descargar(2)">
+     <img src="img/icon_ppsspp_gold.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">PPSSPP Gold - PSP Emulator</span>
+       <span class="apk-version">1.12.3</span>
+       <span class="apk-programer">Henrik Rydgård</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">DuckStation (Emulador de la consola PS1)</p>
+   <div class="container-apk c-apk1" onclick="descargar(3)">
+     <img src="img/Icon_Duckstation.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">DuckStation</span>
+       <span class="apk-version">0.1-4582</span>
+       <span class="apk-programer">Stenzek</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">ePSXe for Android (Emulador de la consola PS1)</p>
+   <div class="container-apk c-apk1" onclick="descargar(4)">
+     <img src="img/Icon_ePSXe.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">ePSXe for Android</span>
+       <span class="apk-version">2.0.15</span>
+       <span class="apk-programer">epsxe software s.l</span>
+     </div>
+   </div>
+   
+   
+   
+   <p class="text-emulator">AetherSX2 (Emulador de la consola PS2)</p>
+   <div class="container-apk c-apk3" onclick="descargar(5)">
+     <img src="img/Icon_AetherSX2.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">AetherSX2</span>
+       <span class="apk-version">alpha-1474</span>
+       <span class="apk-programer">Tahlreth</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">Play! (Emulador de la consola PS2)</p>
+   <div class="container-apk c-apk6" onclick="descargar(6)">
+     <img src="img/Icon_play!.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">Play!</span>
+       <span class="apk-version">0.50</span>
+       <span class="apk-programer">Virtual Applications</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">Dolphin (Emulador de la consola Nintendo Wii y Nintendo Game Cube)</p>
+   <div class="container-apk c-apk1" onclick="descargar(7)">
+     <img src="img/Icon_Dolphin.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">Dolphin Emulator</span>
+       <span class="apk-version">5.0-16101</span>
+       <span class="apk-programer">Dolphin Emulator</span>
+     </div>
+   </div>
+   
+   <div class="container-apk c-apk1" onclick="descargar(8)">
+     <img src="img/Icon_dolphin-mmjr.jpg" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">Dolphin MMJR</span>
+       <span class="apk-version">2.0-16121</span>
+       <span class="apk-programer">Dolphin Team, Weihuoya, Bankaimaster999</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">DraStic DS (Emulador de la consola Nintendo DS) </p>
+   <div class="container-apk c-apk1" onclick="descargar(9)">
+     <img src="img/Icon_DraStic-DS.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">DraStic DS Emulator</span>
+       <span class="apk-version">r2.5.2. 2a</span>
+       <span class="apk-programer">Exophase</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">Nostalgia.NES (Emulador de la consola Nintendo NES)</p>
+   <div class="container-apk c-apk9" onclick="descargar(10)">
+     <img src="img/Icon_nostalgia-nes.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">Nostalgia.NES</span>
+       <span class="apk-version">2.0.9</span>
+       <span class="apk-programer">Nostalgia Emulators</span>
+     </div>
+   </div>
+   
+   <div class="container-apk c-apk9" onclick="descargar(11)">
+     <img src="img/Icon_nostalgia-nes-pro.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">Nostalgia.NES Pro</span>
+       <span class="apk-version">2.0.9</span>
+       <span class="apk-programer">Nostalgia Emulators</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">My Boy! (Emulador de la consola Nintendo Game Boy Advance)</p>
+   <div class="container-apk c-apk9" onclick="descargar(12)">
+     <img src="img/Icon_My-Boy!.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">My Boy! - GBA Emulator</span>
+       <span class="apk-version">1.8.0</span>
+       <span class="apk-programer">Fast Emulator</span>
+     </div>
+   </div> 
+   
+   <p class="text-emulator">My OldBoy! (Emulador de la consola Nintendo Game Boy Color)</p>
+   <div class="container-apk c-apk9" onclick="descargar(13)">
+     <img src="img/Icon_My-OldBoy.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">My OldBoy! - GBC Emulator</span>
+       <span class="apk-version">1.5.1</span>
+       <span class="apk-programer">Fast Emulator</span>
+     </div>
+   </div> 
+   
+   <p class="text-emulator">John GBA (Emulador de la consola Nintendo Game Boy Advance)</p>
+   <div class="container-apk c-apk9" onclick="descargar(14)">
+     <img src="img/Icon_john-GBA.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">John GBA</span>
+       <span class="apk-version">3.93</span>
+       <span class="apk-programer">John emulators</span>
+     </div>
+   </div> 
+   
+   <p class="text-emulator">John GBC (Emulador de la consola Nintendo Game Boy Color)</p>
+   <div class="container-apk c-apk9" onclick="descargar(15)">
+     <img src="img/Icon_john-GBC.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">John GBC</span>
+       <span class="apk-version">3.93</span>
+       <span class="apk-programer">John emulators</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">M64Plus FZ Pro (Emulador de la consola Nintendo 64)</p>
+   <div class="container-apk c-apk9" onclick="descargar(16)">
+     <img src="img/Icon_m64plus-fz-pro-emulator.png" alt="" class="icon-apk">
+     <div class="box-text-game">
+       <span class="apk-title">M64Plus FZ Pro Emulator</span>
+       <span class="apk-version">3.0.312 (beta)-pro</span>
+       <span class="apk-programer">Francisco Zurita</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">Snes9x EX+ (Emulador de la consola Super Nintendo)</p>
+   <div class="container-apk c-apk9" onclick="descargar(17)">
+     <img src="img/Icon_Snes9x-EX.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">Snes9x EX+</span>
+       <span class="apk-version">1.5.58</span>
+       <span class="apk-programer">Robert Broglia</span>
+     </div>
+   </div>
+   
+   <p class="text-emulator">J2ME Loader (Emulador de la plataforma Java Micro Edition)</p>
+   <div class="container-apk c-apk9" onclick="descargar(18)">
+     <img src="img/Icon_J2ME-Loader.png" alt="" class="icon-apk ic-6">
+     <div class="box-text-game">
+       <span class="apk-title">J2ME Loader</span>
+       <span class="apk-version">1.7.5-play</span>
+       <span class="apk-programer">Play Software</span>
+     </div>
+   </div>
+   
+   
+   
+    
+   
+   <span class="box-void">GAME WORLD</span>
+   <span class="line-void"></span>
+ </article>
+ 
+ 
+ <footer class="footer">
+   <div class="box-image-grup">
+     <img src="img/Icon_ppsspp.png" class="image-icon-ppsspp">
+   </div>
+   <h1 class="text-title-grup">PPSSPP WORLD</h1>
+   
+   <div class="container-button-whatsapp">
+      <a href="https://chat.whatsapp.com/FqvGAl5yo2VEHFBN9Rz3Sk" target="_Blank" class="button-whatsapp">
+        <img src="img/Icon_whatsapp.png" alt="ERROR">
+        <span>Unirme al grupo</span>
+      </a>
+    </div>
+ </footer>
+ 
+  
+  <script src="main.js"></script>
+</body>
+</html>
