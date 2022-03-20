@@ -48,6 +48,9 @@ function click() {
     for (var i=12; i<date.getHours(); i++) {
       h+=1;
     }
+    if (date.getHours()==12) {
+      h=date.getHours();
+    }
   }
   
   var horaa = h + ':' + date.getMinutes() + ':' + date.getSeconds() + " "+a;
